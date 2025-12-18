@@ -11,6 +11,14 @@ Vultr VPS 节点测速脚本
 
 ### 使用
 
+#### 方法一：使用 wget
+
 ```shell
 wget -N --no-check-certificate "https://raw.githubusercontent.com/dev-zhang/vultr-speedtest/main/vultr-full-speedtest.sh" && chmod 700 vultr-full-speedtest.sh && ./vultr-full-speedtest.sh
+```
+
+#### 方法二：使用 curl
+
+```shell
+curl -L -o vultr-full-speedtest.sh "https://raw.githubusercontent.com/dev-zhang/vultr-speedtest/main/vultr-full-speedtest.sh" && chmod 700 vultr-full-speedtest.sh && ./vultr-full-speedtest.sh
 ```
